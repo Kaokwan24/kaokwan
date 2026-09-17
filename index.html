@@ -1,1 +1,59 @@
-<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Home · KAOKWAN PAKEEWUT</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="art.css"></head><body><header class="site-header"><a class="brand" href="index.html">KP <i>/</i> KAOKWAN</a><button class="menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="nav"><a href="index.html">HOME</a><a href="about.html">ABOUT</a><a href="experience.html">EXPERIENCE</a><a href="projects.html">PROJECTS</a><a href="contact.html">CONTACT</a></nav></header><main><section class="container home"><div class="hero-copy"><div class="stamp">EST.<br>2023<br>KP</div><p class="kicker">PERSONAL WEBSITE / 2026</p><h1><span class="red">KAOKWAN</span><br><span class="outline">PAKEEWUT</span></h1><p>ข้าวขวัญ — นักศึกษาวิศวกรรมไฟฟ้าสื่อสาร ชั้นปีที่ 4 มหาวิทยาลัยศิลปากร สนใจ electronics, communication, programming และการทำงานที่เปลี่ยนไอเดียให้กลายเป็นชิ้นงานจริง</p><a class="btn" href="projects.html">SEE SELECTED WORK ↗</a> <a class="btn alt" href="about.html">ABOUT</a><div class="hero-meta"><span>AGE 21</span><span>YEAR 4</span><span>2023 — PRESENT</span><span>SILPAKORN UNIVERSITY</span></div></div><div class="photo-area"><div class="fake-photo"><img src="https://raw.githubusercontent.com/Kaokwan24/kaokwan/main/images/profile.jpg" alt="KAOKWAN PAKEEWUT profile photo"></div><div class="photo-caption">HELLO, I'M KP.</div></div></section></main><footer><span>KAOKWAN PAKEEWUT · KAOKWAN</span><span>COMMUNICATION ELECTRICAL ENGINEERING</span><span>2026</span></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home · KAOKWAN PAKEEWUT</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="art.css">
+<style>
+.home{position:relative;overflow:hidden}
+.home:before{content:'KP — 24';position:absolute;left:-18px;top:40px;font:700 9px var(--mono);letter-spacing:.14em;transform:rotate(-90deg);color:var(--red)}
+.home:after{content:'★ ★ ★';position:absolute;right:2%;top:9%;font:700 11px var(--mono);letter-spacing:7px;transform:rotate(8deg);color:var(--blue)}
+.hero-copy:after{content:'STUDENT / ENGINEER / MAKER';display:block;width:max-content;margin-top:28px;padding:6px 9px;border:1px dashed var(--ink);font:700 8px var(--mono);letter-spacing:.1em;transform:rotate(2deg)}
+.kicker{display:inline-block;background:var(--yellow);padding:6px 8px;border:1px solid var(--ink);transform:rotate(-2deg);box-shadow:3px 3px 0 var(--ink)}
+.stamp{right:7%;top:-32px}
+.photo-area:before{content:'01 / PORTRAIT';position:absolute;z-index:5;left:-28px;top:20px;background:var(--paper);border:1px solid var(--ink);padding:7px 9px;font:700 8px var(--mono);transform:rotate(-7deg)}
+.photo-area:after{content:'LOOK / THINK / MAKE';position:absolute;z-index:5;right:-22px;top:42%;font:700 8px var(--mono);letter-spacing:.08em;writing-mode:vertical-rl;transform:rotate(8deg);color:var(--red)}
+.fake-photo{transform:rotate(1.2deg);box-shadow:13px 13px 0 var(--red),-6px -6px 0 var(--yellow)}
+.photo-caption{bottom:-29px}
+.hero-meta span:nth-child(2){background:var(--green)}
+.hero-meta span:nth-child(3){background:var(--pink)}
+.hero-meta span:nth-child(4){background:var(--blue);color:var(--paper)}
+@media(max-width:820px){.home:after{right:5%;top:3%}.photo-area:before{left:-5px}.photo-area:after{right:-5px}.hero-copy:after{margin-bottom:5px}}
+@media(max-width:520px){.home:before{left:-12px;top:28px}.home:after{font-size:9px}.stamp{right:1%;top:-28px}.hero-copy:after{font-size:7px}.fake-photo{transform:rotate(.7deg);margin-left:3px}.photo-area:before{left:3px;top:10px}.photo-area:after{right:0}}
+</style>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">KP <i>/</i> KAOKWAN</a>
+<button class="menu" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav class="nav">
+<a href="index.html">HOME</a>
+<a href="about.html">ABOUT</a>
+<a href="experience.html">EXPERIENCE</a>
+<a href="projects.html">PROJECTS</a>
+<a href="contact.html">CONTACT</a>
+</nav>
+</header>
+<main>
+<section class="container home">
+<div class="hero-copy">
+<div class="stamp">EST.<br>2023<br>KP</div>
+<p class="kicker">PERSONAL WEBSITE / 2026</p>
+<h1><span class="red">KAOKWAN</span><br><span class="outline">PAKEEWUT</span></h1>
+<p>ข้าวขวัญ — นักศึกษาวิศวกรรมไฟฟ้าสื่อสาร ชั้นปีที่ 4 มหาวิทยาลัยศิลปากร สนใจ electronics, communication, programming และการทำงานที่เปลี่ยนไอเดียให้กลายเป็นชิ้นงานจริง</p>
+<a class="btn" href="projects.html">SEE SELECTED WORK ↗</a>
+<a class="btn alt" href="about.html">ABOUT</a>
+<div class="hero-meta"><span>AGE 21</span><span>YEAR 4</span><span>2023 — PRESENT</span><span>SILPAKORN UNIVERSITY</span></div>
+</div>
+<div class="photo-area">
+<div class="fake-photo"><img src="https://raw.githubusercontent.com/Kaokwan24/kaokwan/main/images/profile.jpg" alt="KAOKWAN PAKEEWUT profile photo"></div>
+<div class="photo-caption">HELLO, I'M KP.</div>
+</div>
+</section>
+</main>
+<footer><span>KAOKWAN PAKEEWUT · KAOKWAN</span><span>COMMUNICATION ELECTRICAL ENGINEERING</span><span>2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
